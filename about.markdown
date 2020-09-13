@@ -4,15 +4,19 @@ title: About
 permalink: /about/
 ---
 
-Welcome to my personal website. I am **Subhra Sarkar** - a software engineer by profession. Coincedentally, that's my passion too. I love to build things. In particular, my interest lies in embedded systems, operating systems, networking - loosly near the layers where hardware interfaces with the software stack or around `Hardware Abstraction Layer` (`HAL`). More recently, I have developed an interest in machine learning and trying to devote some time in learning this area.
+Hello there! Welcome to my website.
 
-If you have not figued it out already, I am an avid open-source enthusiast. Because of my previous employment restrictions, I have not been able to contribute to OSS projects. Hoping that should change in the future as more companies are embracing and contributing to open-source projects these days. If you have an interesting OSS project, I would love to know about it.
+I am **Subhra Sarkar** - a software engineer by profession. Coincedentally, that's my passion too! In particular, my interests lie in exploring and understanding intricate details of embedded systems, operating-systems & computer networking and developing challenging real-world solutions in pertinent domains. Off late, I have developed some curiosity in machine learning and exploring the subject in my spare time. If you want to know more, here is my updated [CV]({{ site.baseurl }}{% link assets/SubhraSarkar.pdf %}).
 
-Apart from dabbling with code, computers and embedded devices, I am an occassional [endurance sport junkie][Strava]. I finished [Ironman 70.3 Miami, FL][IM70.3Miami-2015] in 2015. I moved to Denver, CO in 2016 and while there, my focus shifted from triathlon to the road-bike discipline. I also developed a keen interest in the professional bike racing events during this time - Vuelta, Giro and TDF in particular. Being an engineer, I like to quantify things and my [Garmin 920XT][Garmin920XT] has served me really well over the years.
+Recently, I moved back to India, my home-country, after spending a decade studying and working in the United States. While there, I spent a few years in Denver, CO and Atlanta, GA. Have lots of fond memories associated with both the places and would love to revisit in the future.
 
-If you want to get back in touch, discuss on shared interests or just say 'hi', shoot me an [email][email].
+I graduated with a Masters in Computer Science from [Clemson University][CLEMSON], Clemson, SC, U.S.A. Prior to that, I earned Bachelors, again in Computer Science, from [NIT, Bhopal][MANIT], India.
 
-[IM70.3Miami-2015]: https://www.coachcox.co.uk/imstats/athlete/719206/
-[Strava]: https://www.strava.com/athletes/subhra_sarkar
-[Garmin920XT]: https://www.garmin.co.in/products/discontinued/forerunner-920xt-black-hrm/
-[email]: mailto:rurtle.coder@gmail.com
+Other than dabbling with code and tinkering with devices, I am an endurance sport enthusiast. I am an [Ironman 70.3][IRONMAN703] finisher. More recently, however, my focus has shifted from triathlon to the road-bike discipline.
+
+If you want to get back in touch, discuss on shared interests or just say 'Hi', shoot me an [email][EMAIL].
+
+[CLEMSON]: https://www.clemson.edu
+[MANIT]: http://www.manit.ac.in
+[IRONMAN703]: https://en.wikipedia.org/wiki/Ironman_70.3
+[EMAIL]: mailto:subhrassarkar@gmail.com
