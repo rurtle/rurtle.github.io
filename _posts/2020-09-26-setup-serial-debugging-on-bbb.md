@@ -7,11 +7,11 @@ permalink: 	/blog/:year/:title
 
 Last week I got a shiny new [BeagleBone Black (BBB)][BeagleBoneBlack]{:target="_blank"} delivered at my doorstep. Now that I had it lying on my study table, needed to figure out a way to talk to it over the serial port. In this post, I am going to show three different software based ways to communicate with your BBB (or other embedded devices, so long as those support [serial communication][serial_communication]{:target="_blank"}) from your PC running some variant of Linux. Things you will need -
 
-* A BeagleBone Black :innocent:
+* A BeagleBone Black. :innocent:
 * PL2303, CP2102 or FTDI module to connect your BBB to your PC's USB port. I am using a CP2102 module purchased from Amazon for this exercise.
 * Download cables (usually comes with the serial-usb adapter) for Xfering bits from the board to your PC.
-* Laptop/desktop running on some Linux distro. I have Ubutnu 18.04 LTS on my setup.
-* A reliable Internet connection (needed for installing the s/w tools)
+* Laptop/desktop running on some Linux distro. I have Ubuntu 18.04 LTS on my setup.
+* A reliable Internet connection (needed for installing the s/w tools).
 * [Optional] An USB hub, if you are planning on working with multiple serial-usb adapters.
 
 Now, let's get the hardware configuration out of the way first before we delve into software realm. Below table explains interconnection between BBB and the CP2102 serial-usb adapter. <br />
@@ -49,15 +49,15 @@ Since I was not able to get keyboard inputs recognized on Minicom initially, I s
 
     sudo picocom -b 115200 -r -l /dev/ttyUSB0
 
-And this is how the Picocom console looks -
+Notice that we are passing the configuration options as command line parameters here. And this is how the Picocom console should look like -
 
 ![picocom-console](/assets/picocom-console.png)
 
-Unlike minicom though, I didn't have to specifically tweak configuration options to get it to work. So, that's a good thing! Further details on `picocom` can be found in the `man pages`. :wink:
+Unlike minicom though, I didn't have to specifically tweak configurations to get it to work which is nice! Further details on `picocom` can be found in the `man pages`. :wink:
 
 # Method 3: Using [Gtkterm][Gtkterm]{:target="_blank"}
 
-To install `gtkterm`, simply run the command `sudo apt-get install gtkterm` on your terminal.
+To install `gtkterm`, simply run the command `sudo apt install gtkterm` on your terminal.
 
 {:refdef: style="text-align: center;"}
 ![Gtkterm-config](/assets/Gtkterm-Serial_port_config.png)
