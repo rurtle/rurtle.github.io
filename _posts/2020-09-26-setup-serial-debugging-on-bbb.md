@@ -1,7 +1,7 @@
 ---
 layout: 	post
 title: 		Serial debug setup on BeagleBone Black
-tags:		embedded beaglebone linux serial-debug tech
+tags:		embedded beaglebone linux tech
 permalink: 	/blog/:year/:title
 ---
 
